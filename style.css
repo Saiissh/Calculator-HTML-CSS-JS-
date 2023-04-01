@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Ruda', sans-serif;
+}
+
+.calculator{
+
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 40%;
+    height: 90vh;
+    border-radius: 10%;
+    max-width: 370px; min-width: 370px;
+    min-height: 700px;
+}
+.toparea{
+    background-color: rgb(185, 185, 185);
+    height: 30%; 
+       border-radius: 6% 6% 0 0;
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: space-between;
+       padding: 20px;
+
+}
+.top-heading{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* padding: 10%; */
+    color: white;
+    font-size: large;
+    
+}
+
+/* calculation area */
+
+.calculationarea{
+    /* border: 2px solid red; */
+    /* align-content: flex-end; */
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px;
+    /* gap: ; */
+}
+.calculationarea>div{
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+font-size: 30px;
+color: white;
+}
+
+
+
+
+
+/* calculation area */
+
+/* -----------------buttons ans lower--------------- */
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    height: 53vh;
+    /* border: 2px solid pink; */
+    /* padding: 3px; */
+    gap: auto;
+
+}
+.keys{
+    /* height: 100%; */
+    padding: 10%;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(37, 37, 37);
+}
+
+
+.lower-key-left{
+    border-radius:0 0 0 16%  ;
+}
+.lower-key-right{
+    border-radius:0 0 16% 0  ;
+}
+
+
